@@ -1,0 +1,10 @@
+org.opencv-java-0 /home/user/librerias/OpenCV-android-sdk/sdk/java/res
+org.opencv-pngs-1 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/build/generated/res/pngs/debug
+org.opencv-updated_navigation_xml-2 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/build/generated/updated_navigation_xml/debug
+org.opencv-mergeDebugResources-3 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+org.opencv-mergeDebugResources-4 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+org.opencv-debug-5 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/build/intermediates/merged_res/debug/mergeDebugResources
+org.opencv-debug-6 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/build/intermediates/packaged_res/debug/packageDebugResources
+org.opencv-debug-7 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/src/debug/res
+org.opencv-main-8 /media/user/Respaldos/KubuntuData/Proyectos/AndroidStudioProjects/aplicacionnativa/opencv/src/main/res
+gradleHome-0 /media/user/Respaldos/KubuntuData/Gradle/.gradle

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCamera2View
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        opencv:camera_id="front"
+        opencv:show_fps="false" />
+
+    <LinearLayout
+        android:id="@+id/panel_controles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="#AA000000">
+
+        <TextView
+            android:id="@+id/tv_fps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FPS: 0.0"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_gauss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruido Gaussiano σ: 0"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+        <SeekBar
+            android:id="@+id/sb_gauss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_speckle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruido Speckle σ: 0.00"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+        <SeekBar
+            android:id="@+id/sb_speckle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_kernel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filtro: sin suavizado"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+        <SeekBar
+            android:id="@+id/sb_kernel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tv_fondo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fondo reemplazado: Negro"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_fondo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cambiar fondo" />
+
+    </LinearLayout>
+
+</FrameLayout>
